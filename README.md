@@ -1,6 +1,6 @@
 # ARM Cortex-M3 Drivers
 
-Welcome to the ARM Cortex-M3 Drivers repository! This repository contains three layers of drivers for the STM32F103C8 ARM Cortex-M3 microcontroller.
+Welcome to the ARM Cortex-M3 Drivers repository! This repository contains drivers for the STM32F103 ARM Cortex-M3 microcontroller.
 
 ## Layers
 
@@ -20,16 +20,6 @@ Welcome to the ARM Cortex-M3 Drivers repository! This repository contains three 
    - I2C (Inter-Integrated Circuit)
    - FPEC (Flash Memory Programming/Erasing Controller)
 
-3. **HAL (Hardware Abstraction Layer) Layer**: This layer offers higher-level drivers for various specific modules, including:
-   - Ultrasonic
-   - STP (Seven-Segment LED Display)
-   - Oximeter
-   - LED Matrix
-   - LM35 Temperature Sensor
-   - IR Sensor
-   - Encoder
-   - EEPROM (Electrically Erasable Programmable Read-Only Memory)
-   - Battery Indicator
 
 ## Module Structure
 
@@ -40,14 +30,6 @@ Each module within the layers follows a consistent structure:
 - `private.h`: Private register definitions and functions.
 - `program.c`: Implementation of the module.
 
-## Module Status
-
-All modules within this repository have been tested and successfully integrated into various projects. However, please note that the following modules are currently in testing progress and might have limited functionality:
-
-- IR Sensor
-- Oximeter
-- Ultrasonic Sensor
-- FPEC (Flash Memory Programming/Erasing Controller)
 
 ## Contribution
 
